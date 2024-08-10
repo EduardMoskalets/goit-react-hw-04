@@ -1,7 +1,7 @@
 import css from './SearchBar.module.css';
 import { Field, Form, Formik } from 'formik';
 import { GoSearch } from 'react-icons/go';
-import css from './SearchBar.module.css';
+import { toast, Toaster } from 'react-hot-toast';
 
 
 export default function SearchBar({ onSearch }) {
@@ -30,7 +30,10 @@ export default function SearchBar({ onSearch }) {
           <button className={css.searchBtn} type="submit">
             <GoSearch />
           </button>
-          <Toaster position="top-right" reverseOrder={false} />
+          <Toaster
+              position="top-center"
+              reverseOrder={false}
+          />
         </Form>
       </Formik>
     </header>

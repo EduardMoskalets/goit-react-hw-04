@@ -1,4 +1,4 @@
-import css from './ImageCarrd.module.css';
+import css from './ImageCard.module.css';
 
 export default function ImageCard({ small, regular, description, onClick }) {
   const handleClick = () => {

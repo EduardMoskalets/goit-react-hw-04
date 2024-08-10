@@ -12,7 +12,5 @@ import ImageModal from './components/ImageModal/ImageModal';
 
 export default function () {
   
-  return (
-
-  )
+  
 }
